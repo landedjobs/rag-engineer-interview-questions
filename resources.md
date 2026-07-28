@@ -1,6 +1,6 @@
 # RAG Engineer Resources (2026)
 
-> *Updated 2026-07 · part of [RAG Engineer Interview Questions](../README.md)*
+> *Updated 2026-07 · part of [RAG Engineer Interview Questions](README.md)*
 
 The curated resource hub — **50 typed, annotated, license-noted resources** across 16 categories, plus the **13 canonical repos to mine**. Every link is annotated (never a bare dump), typed, and — for repos — license-noted.
 
