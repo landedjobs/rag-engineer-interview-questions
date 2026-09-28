@@ -80,6 +80,7 @@ flowchart LR
   9. [Enterprise & secure RAG](content/09-enterprise-secure-rag.md)
 - [**Answers**](answers/): [the RAG system-design rubric](answers/rag-system-design-rubric.md) + [4 worked designs](answers/)
 - [**Resources**](resources.md): 50 typed, annotated, license-noted resources + 13 repos to mine
+- [🎓 Go deeper on landed.jobs](#-go-deeper-on-landedjobs): the free RAG course mapped to each topic, practice questions
 - [What's new (2026-07)](#whats-new-2026-07) · [FAQ](#faq) · [Contributing](#contributing)
 
 ---
@@ -94,6 +95,27 @@ flowchart LR
 
 > [!TIP]
 > The single highest-signal move in a RAG interview: **when answers are wrong, localize before you fix.** Instrument the retrieval/generation boundary, *is the gold chunk in the retrieved set or not?* Retrieval miss → chunking / hybrid / ANN-params / reranker. Retrieved but ignored → grounding / prompt. This one reflex separates "read a blog" from "shipped one."
+
+---
+
+## 🎓 Go deeper on landed.jobs
+
+The free [Retrieval-Augmented Generation](https://www.landed.jobs/resources/courses/rag-systems?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=course-rag-systems) course on [landed.jobs](https://www.landed.jobs/?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=repo-home) follows this repo's pipeline stage by stage. The questions and lectures stay here; the course adds structured lessons you can work through in order.
+
+| Topic in this repo | Lesson on landed.jobs |
+|---|---|
+| [01 Chunking](content/01-chunking.md) | [Chunking & contextual retrieval](https://www.landed.jobs/resources/courses/rag-systems/rag-chunking?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=lesson-rag-chunking) |
+| [02 Embeddings & vector DBs](content/02-embeddings-and-vector-dbs.md) | [Retrieval foundations & the shapes of RAG](https://www.landed.jobs/resources/courses/rag-systems/rag-embeddings?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=lesson-rag-embeddings) |
+| [03 Retrieval & hybrid search](content/03-retrieval-and-hybrid-search.md) | [Hybrid retrieval & the multi-stage pipeline](https://www.landed.jobs/resources/courses/rag-systems/rag-hybrid?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=lesson-rag-hybrid) |
+| [04 Reranking & query rewriting](content/04-reranking-and-query-rewriting.md) | [Reranking, ColBERT & query transformation](https://www.landed.jobs/resources/courses/rag-systems/rag-reranking?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=lesson-rag-reranking) |
+| [05 RAG evaluation](content/05-rag-evaluation.md) | [Evaluating & operating RAG](https://www.landed.jobs/resources/courses/rag-systems/rag-evaluation?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=lesson-rag-evaluation) |
+| [08 Production, latency & cost](content/08-production-latency-cost.md) | [RAG at scale: index economics, freshness & multi-tenancy](https://www.landed.jobs/resources/courses/rag-systems/rag-scale?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=lesson-rag-scale) |
+| [09 Enterprise & secure RAG](content/09-enterprise-secure-rag.md) | [Auth, SSO, RBAC & auditability](https://www.landed.jobs/resources/courses/fde-enterprise-rag/fderag-auth-rbac?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=lesson-fderag-auth-rbac) · [Guardrails & PII handling](https://www.landed.jobs/resources/courses/fde-enterprise-rag/fderag-guardrails-pii?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=lesson-fderag-guardrails-pii) |
+| [Worked designs](answers/) | [Capstone: design a production RAG](https://www.landed.jobs/resources/courses/rag-systems/rag-capstone?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=lesson-rag-capstone) · [Worked design: enterprise LLM/RAG assistant](https://www.landed.jobs/resources/courses/ml-system-design/msd-rag-assistant?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=lesson-msd-rag-assistant) |
+
+**Practice questions, each with a full answer.** [How RAG works](https://www.landed.jobs/resources/questions/explain-how-retrieval-augmented-generation-works-aiq-0001?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=question-aiq-0001) · [A production RAG for ten million documents](https://www.landed.jobs/resources/questions/design-a-production-rag-system-for-ten-million-documents-aiq-0038?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=question-aiq-0038) · [Evaluate a RAG pipeline end to end](https://www.landed.jobs/resources/questions/how-would-you-evaluate-a-rag-pipeline-end-to-end-aiq-0039?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=question-aiq-0039) · [Multi-tenant retrieval without leaks](https://www.landed.jobs/resources/questions/how-would-you-design-multi-tenant-retrieval-without-leaking-customer-data-aiq-0068?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=question-aiq-0068) · [Tables, images and scanned pages](https://www.landed.jobs/resources/questions/how-would-you-process-documents-containing-tables-images-and-scanned-pages-for-r-aiq-0069?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=question-aiq-0069) · [Prompting vs RAG vs fine-tuning](https://www.landed.jobs/resources/questions/how-would-you-decide-between-prompting-rag-fine-tuning-and-training-a-model-aiq-0037?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=question-aiq-0037)
+
+**Roadmaps and pay.** [AI Engineer roadmap](https://www.landed.jobs/resources/roadmaps/ai-engineer?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=roadmap-ai-engineer) · [LLM Engineer roadmap](https://www.landed.jobs/resources/roadmaps/llm-engineer?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=roadmap-llm-engineer) · [AI Engineer salaries](https://www.landed.jobs/salaries/ai-engineer?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=salaries-ai-engineer) · [LLM Engineer salaries](https://www.landed.jobs/salaries/llm-engineer?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=salaries-llm-engineer)
 
 ---
 
