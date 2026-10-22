@@ -12,7 +12,7 @@
 [![Questions](https://img.shields.io/badge/questions-100+-6C2BD9)](questions/)
 [![Visit Landed](https://img.shields.io/badge/Visit-Landed-6C2BD9?logo=rocket&logoColor=white)](https://www.landed.jobs/?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=repo-home)
 
-**The most complete, senior-level prep for RAG-engineer interviews, 100+ questions, worked system designs, and a typed resource hub, all dated 2026.**
+**RAG engineer interview prep for 2026: 100+ questions, worked system designs and a typed resource hub.**
 
 *Maintained by [Landed](https://www.landed.jobs/?utm_source=github&utm_medium=referral&utm_campaign=github-rag-engineer-interview-questions&utm_content=repo-home): daily AI-native job matches, agent help with every application, and mock-interview prep.*
 
@@ -24,7 +24,7 @@
 
 A RAG interview is not a trivia quiz about vector databases. **It tests whether you treat retrieval as an information-retrieval system with real metrics and tradeoffs, or as a magic box.** By 2026 the loop is ~60% GenAI-focused, and "Design a RAG system for a customer-support chatbot" is reported across companies as the baseline system-design prompt. Interviewers probe seven things: can you *debug retrieval before generation*, define `recall@k` / `precision@k` / `nDCG`, choose chunking + hybrid + reranking deliberately, *evaluate* the pipeline (offline and online), ground answers with citations, size the thing (RAM / latency / cost) on a whiteboard, and secure it for real tenants. This repo gives you the mechanism first, then the production implication, for every one of those.
 
-> ⭐ **Star this repo**: it's the deepest RAG interview-prep on GitHub, refreshed for 2026 (GraphRAG, agentic RAG, contextual retrieval, retrieval eval, secure/enterprise RAG).
+> ⭐ **Star this repo**: it's refreshed for 2026 (GraphRAG, agentic RAG, contextual retrieval, retrieval eval, secure/enterprise RAG).
 
 ---
 
