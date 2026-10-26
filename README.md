@@ -18,6 +18,13 @@
 
 </div>
 
+<!-- landed-apply-cta -->
+<table><tr><td>
+<b>⚡ <a href="https://app.landed.jobs/signup?from=github&amp;cta=github-guide-apply&amp;item=rag-engineer-interview-questions&amp;utm_source=github&amp;utm_medium=referral&amp;utm_campaign=github-rag-engineer-interview-questions&amp;utm_content=guide-apply">Auto-apply to AI and RAG engineer jobs that match you →</a></b><br>
+Upload your resume once. <a href="https://www.landed.jobs">landed</a> finds the roles that fit you and applies within hours of them going live, so you actually hear back.
+</td></tr></table>
+
+
 ---
 
 ## What a RAG-engineer interview tests in 2026
